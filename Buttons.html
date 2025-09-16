@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Love, Comment, Share</title>
+
+  <!-- Correct Boxicons CSS -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
+  <style>
+    .link {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 50px;
+      height: 50px;
+      margin: 10px;
+      border-radius: 50%;
+      color: #fff;
+      text-decoration: none;
+      font-size: 24px;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .link:hover {
+      transform: scale(1.2);
+      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <!-- Love / Like -->
+    <a href="#" class="link" style="background:#ff4d6d">
+      <i class="bx bxs-heart"></i>
+    </a>
+
+    <!-- Comment -->
+    <a href="#" class="link" style="background:#1da1f2">
+      <i class="bx bxs-message-rounded"></i>
+    </a>
+
+    <!-- Share -->
+    <a href="#" class="link" style="background:#28a745">
+      <i class="bx bxs-share-alt"></i>
+    </a>
+  </div>
+</body>
+</html>
